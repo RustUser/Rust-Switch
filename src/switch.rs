@@ -22,6 +22,7 @@ impl Switch {
             value
         };
     }
+
     ///The invert method simply inverts the value that the switch is holding.
     /// Example: if the switch is false, it is true. If it is true, it is false.
     pub fn invert(&mut self) -> bool {
@@ -32,5 +33,10 @@ impl Switch {
     ///Returns our switch value, then inverts it.
     pub fn get(&mut self) -> bool {
         return !self.invert();
+    }
+
+    ///Returns our switch value without inverting it.
+    pub fn view(&self) -> bool {
+        return self.value;
     }
 }
