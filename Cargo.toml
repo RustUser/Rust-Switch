@@ -1,0 +1,6 @@
+[package]
+name = "RustSwitch"
+version = "0.1.0"
+authors = ["Anthony <38731578+piqllang@users.noreply.github.com>"]
+
+[dependencies]
