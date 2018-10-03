@@ -9,7 +9,7 @@ If you have a system where you need to take a boolean, and invert its value afte
 
 New to rust, coming from Java? This is what it would look like in Java:
 
-{public class Switch {
+public class Switch {
     private boolean value;
 
     public Switch(boolean value) {
@@ -27,5 +27,3 @@ New to rust, coming from Java? This is what it would look like in Java:
     public boolean view() {
         return this.value;
     }
-}
-}
